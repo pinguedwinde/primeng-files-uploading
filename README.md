@@ -1,27 +1,33 @@
 # PrimeNgFilesUploading
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+PrimeNG is a rich set of open source native Angular UI components.
 
-## Development server
+We use it this library to build an angular app for uploading files. We use also Express as a server.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **PrimeNG**
+- **Express**
+- **CORS**
+- **Multer** is a node.js middleware for handling **`multipart/form-data`**
+- **Angular Animations**
+- **HttpClientModule : HttpRequest, HttpEvent, HttpEventType**
+- **Web native API Drag and Drop**
 
-## Code scaffolding
+## Download
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**PrimeNG** is available at npm, if you have an existing application run the following command to download it to your project.
 
-## Build
+**PrimeFlex** is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more. Although it is not required, it is highly recommended to add PrimeFlex as it is likely to need such utilities when developing applications with PrimeNG. The version 3 is used here, and it's different from the version 2.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```sh
+$ npm install primeng --save
+$ npm install primeicons --save
+$ npm install primeflex --save
+```
 
-## Running unit tests
+For the Server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```sh
+$ npm install express --save
+$ npm install cors --save
+npm install --save multer
+```

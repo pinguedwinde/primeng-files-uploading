@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  .content {
+    min-height: 500px;
+    .upload {
+      border: 2px dashed rgb(74, 132, 233);
+      border-radius: 5px;
+      height: 280px;
+      width: 1000px;
+      cursor: copy;
+      .upload-icon {
+        color: rgb(35, 87, 165);
+      }
+    }
+    .over {
+      background: #eee;
+    }
+    .files {
+      .file {
+        padding: 25px 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        height: 80px;
+      }
+    }
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.file-icon {
+  color: var(--primary-color);
+}
+
+.clear-icon {
+  color: var(--pink-500);
+}
+
+.spinner-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  .spinner {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: black;
+    z-index: 100;
+  }
+}
+
+@keyframes custom-progress-spinner-color {
+  100%,
+  0% {
+    stroke: #16697a;
+  }
+  40% {
+    stroke: #489fb5;
+  }
+  66% {
+    stroke: #82c0cc;
+  }
+  80%,
+  90% {
+    stroke: #ffa62b;
+  }
+}
